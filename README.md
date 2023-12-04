@@ -1,3 +1,0 @@
-# StudentManager
-
-updated
