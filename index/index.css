@@ -2,18 +2,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
-    background-color: #f8f8f8;
+    background-color: aqua;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo img{
     max-width: 100px;
+    border-radius: 70px;
+}
+
+.search_bar{
+    border-radius: 10px;
+    height: 39px;
+    
 }
 
 nav ul{
@@ -21,6 +35,8 @@ nav ul{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
+    
 }
 
 nav ul li{
@@ -30,20 +46,62 @@ nav ul li{
 
 nav a{
     text-decoration: none;
-    color: #333;
+    color: red;
     font-weight: bold;
+    
+    font-size: 25px;
 }
 
-nav ul li:hover{
+nav ul a:hover{
     color: #007bff;
+    
     transition: color 0.3s ease-in-out;
 }
 
 .btn_login a{
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.body_image{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_image img{
+    box-shadow: 3px 3px 5px #888888;
+    width: 70%;
+    height: 650px;
+}
+
+.information_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.columm{
+    flex: 1;
+}
+
+.information_box img{
+    width: 400px;
+}
+
+.event_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.event_box img{
+    height: 400px;
+    width: 350px;
 }
