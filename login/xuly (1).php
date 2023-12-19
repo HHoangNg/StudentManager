@@ -19,9 +19,6 @@ echo "Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu. <a href
 exit;
 }
   
-// mã hóa pasword
-$password = md5($password);
-  
 //Kiểm tra tên đăng nhập có tồn tại không
 $query = "SELECT username, password FROM member WHERE username='$username'";
 $result = mysqli_query($connect, $query) or die( mysqli_error($connect));
