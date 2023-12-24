@@ -103,8 +103,9 @@ header {
     align-items: center;
     position: absolute; 
     top: 550px; 
-    right: 200px;
+    right: 80px;
     height: 100px;
+    
 }
 .infor_icon i{
     background-color: black; 
@@ -113,5 +114,29 @@ header {
     width: 75px; 
     border-radius: 200px; 
     text-align: center; 
+    cursor: pointer;
+    
+}
+.body_intro{
+    display: flex;
+    justify-content: space-around;
+    font-family: arial;
+}
+.school_infor{
+    height: 950px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #3ea66b;
+    font-family: arial;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 136, 0);
+    font-family: arial;
+    font-weight: bold;
+}
+footer img{
     cursor: pointer;
 }
