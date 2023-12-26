@@ -1,17 +1,23 @@
+<?require_once "connect.php"?>;
 <?php
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+$student_name = $_POST['student_name'];
+$student_password = $_POST['student_password'];
+if (isset($_POST['btn_login1'])) {
+    
 
-    $db = mysqli_connect("localhost", "root", "", "login");
+    $sql = "SELECT * FROM user WHERE name = '$student_name' and password = '$student_password' ";
 
-    $sql = "SELECT * FROM user WHERE name = '$username' and password = '$password' ";
-
-    $rs = mysqli_query($db, $sql);
-    if(mysqli_num_rows($rs) > 0) {
-        header("Location: http://localhost/StudentManager/student/student_index.html");
+    $result = $conn->query($sql);
+    
+    if ($result->num_rows > 0) {
         
-    }
-    else {
+        header("Location:http://localhost/StudentManager/student/student_index.php");
+        
+    } else {
         echo "login failed";
     }
+
+    $conn->close();
+}
+
 ?>

@@ -47,7 +47,7 @@ header{
 }
 .student_info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
 }

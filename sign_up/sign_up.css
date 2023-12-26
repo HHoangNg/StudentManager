@@ -7,52 +7,42 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
 }
-
-.login_form{
+.sign_up_form{
     display: flex;
     align-items: center;
-    height: 400px;
-    width: 400px;
+    text-align: center;
     flex-direction: column;
+    width: 290px;
+    gap: 10px;
     background-color: #ff8e51;
-    margin-top: 70px;
+    margin-top: 40px;
     border: 1px black solid;
-    
+    height: 500px;
 }
-.login_form h1{
-    background-color: #ffd83f;
-    width: 400px;
-    text-align: center;
-    margin-top: 0;
-    font-size: 40px;
+.sign_up_form input{
+    height: 30px;
     border: 1px black solid;
+    border-radius: 10px;
+    width: 250px;
 }
-.login_form h3{
-    font-size: 25px;
-}
-.login_form input{
+.sign_up_form button{
     height: 40px;
-    border: 2px black solid;
-    border-radius: 10px;
-}
-
-
-img{
-    width: 400px;
+    width: 200px;
     border: 1px black solid;
-}
-#btn_login{
-    background-color: #ffd83f;
-    font-size: 31px;
-    width: 140px;
-    text-align: center;
-    border: 2px black solid;
     border-radius: 10px;
+    background-color: #ffd83f;
+    text-align: center;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     margin-top: 10px;
+    font-weight: bolder;
 }
-#btn_login:hover{
+.sign_up_form button:hover{
     background-color: gainsboro;
+}
+img{
+    height: 50px;
+    width: 290px;
 }
