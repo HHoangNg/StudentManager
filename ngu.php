@@ -13,6 +13,8 @@ ob_start();
     <h1>Hello, world!</h1>
     <p>This is a test page.</p>
     <p>1 lu  ngu</p>
+    <p>rat la cay cu</p>
+    <h1>123</h1>
 </body>
 </html>
 <?php
