@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "StudentManager",
+			"path": "../../../Users/Admin/OneDrive/Máy tính/StudentManager"
+		},
+		{
+			"name": "login1",
+			"path": "../login1"
+		},
+		{
+			"name": "data",
+			"path": "../data"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "StudentManager"
+	}
+}

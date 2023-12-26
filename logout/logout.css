@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5cd1ff;
+    
+}
+.logout_mess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+   
+}
+.logout_mess img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px black solid;
+}
+.logout_select{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    gap: 100px;
+}
+.logout_select a{
+    text-decoration: none;
+    background-color: #fffbe0;
+    color: black;
+    font-size: 35px;
+    border: 1px black solid;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+.logout_select a:hover{
+    background-color: aqua;
+}

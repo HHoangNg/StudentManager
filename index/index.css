@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(255, 136, 0);
+    padding: 10px 20px;
+    
+    height: 670px;
+}
+.logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(255, 196, 0);
+    width: 540px;
+    border-radius: 70px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    rotate: -4deg;
+}
+.logo h1{
+    color: rgb(255, 102, 0);
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.logo img{
+    max-width: 100px;
+    border-radius: 70px;
+    border-color: black;
+    border-style: solid;
+}
+.btn_login{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.btn_login a{
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    height: 45px;
+    text-align: center;
+    color: black;
+    background-color: #f0a1ec;
+    align-items: center;
+    display: flex;
+    transition: color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn_login a:hover{
+    color: #f0a1ec;
+    background-color: #fff;
+}
+.btn_login input{
+    border-radius: 20px;
+    height: 45px;
+}
+.search_icon{
+    position: absolute;
+    top: 15px;
+    right: 140px;
+}
+.header_img{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.header_img img{
+    transition: transform 0.2s ease-in-out;
+}
+.header_img img:hover{
+    transform: scale(1.1);
+}
+.header_infor{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 200px;
+    left: 770px;
+    gap: 18px;
+}
+.header_infor img{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.header_infor img:hover{
+    transform: scale(1.1);
+}
+.infor_icon{
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+    position: absolute; 
+    top: 550px; 
+    right: 80px;
+    height: 100px;
+    
+}
+.infor_icon i{
+    background-color: black; 
+    color: white; 
+    font-size: 70px;
+    width: 75px; 
+    border-radius: 200px; 
+    text-align: center; 
+    cursor: pointer;
+    
+}
+.body_intro{
+    display: flex;
+    justify-content: space-around;
+    font-family: arial;
+}
+.school_infor{
+    height: 950px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #3ea66b;
+    font-family: arial;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 136, 0);
+    font-family: arial;
+    font-weight: bold;
+}
+footer img{
+    cursor: pointer;
+}
