@@ -12,6 +12,7 @@ ob_start();
 <body>
     <h1>Hello, world!</h1>
     <p>This is a test page.</p>
+    <p>1 lu  ngu</p>
 </body>
 </html>
 <?php
