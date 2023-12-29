@@ -5,7 +5,8 @@ body{
     background-color: #f9b2dc;
     display: flex;
     
-    
+    align-items: center;
+    text-align: center;
     flex-direction: column;
    
 }
@@ -15,14 +16,15 @@ body{
     text-align: center;
     flex-direction: column;
     width: 290px;
-    gap: 10px;
     background-color: #ff8e51;
-    margin-top: 40px;
+    margin-top: 20px;
     border: 1px black solid;
     height: 700px;
+    justify-content: center;
+    
 }
 .sign_up_form input{
-    height: 30px;
+    height: 40px;
     border: 1px black solid;
     border-radius: 10px;
     width: 250px;

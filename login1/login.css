@@ -12,7 +12,7 @@ body{
 .login_form{
     display: flex;
     align-items: center;
-    height: 400px;
+    height: 450px;
     width: 400px;
     flex-direction: column;
     background-color: #ff8e51;
@@ -55,4 +55,13 @@ img{
 }
 #btn_login:hover{
     background-color: gainsboro;
+}
+#student_choice{
+    background-color: #ffd83f;
+    border: 1px black solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#teacher_choice{
+    cursor: pointer;
 }

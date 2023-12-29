@@ -48,15 +48,39 @@ header{
     background-color: gainsboro;
     align-items: center;
 }
-.student_info{
+.teacher_info{
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
 }
+.teacher_info img{
+    height: 200px;
+    width: 200px;
+}
+.teacher_function button{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 300px;
+    background-color: #ffd83f;
+    border: 1px black solid;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+.student_infors{
+    display: flex;
+    text-align: center;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center ;
+}
 .student_point{
     display: flex;
     text-align: center;
+    flex-direction: column;   
     justify-content: center;
-   
+    align-items: center ;
+    width: 100%;
 }
